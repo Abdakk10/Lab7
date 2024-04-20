@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Changer</title>
+</head>
+<body>
+    <h1 id="header">Change Text Color</h1>
+    <form id="colorForm">
+        <input type="text" id="colorInput" placeholder="Enter color name or hex code">
+        <button type="submit">Change Color</button>
+    </form>
+
+    <!-- Element to display the "Hello" text -->
+    <p id="helloText">Hello</p>
+
+    <script src="{% static 'color_changer\static\color.js"}></script>
+
+
+</body>
+</html>
